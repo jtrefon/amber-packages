@@ -1,0 +1,20 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Fri, 30 Oct 2026 23:41:08 +0000
+Description: amber-agent package repository
+Label: amber-agent
+Origin: amber
+Suite: stable
+MD5Sum:
+ cc983ad67d9741f6bcd146d71a9637a8             4238 main/binary-amd64/Packages
+ a2e5562aad7e11a13a7af167654f8e60             1926 main/binary-amd64/Packages.gz
+SHA1:
+ d342ae088c5c52583b5c5f65056d9e1d9d3db47f             4238 main/binary-amd64/Packages
+ 4b9939a3d2de3d6cad30b217e8cc40c18be1e733             1926 main/binary-amd64/Packages.gz
+SHA256:
+ 76b52b87ab9a7ce24a7ea4b42ad8201e3e10348266aa8c1a568b9eb302a8188a             4238 main/binary-amd64/Packages
+ 01784f92ef12739ca3f945beb73faee743d8a1ea3100868be805893388490203             1926 main/binary-amd64/Packages.gz
+SHA512:
+ c3f30d49312a99a4a327df4aa4d6474059cc6dff0deb6260e9f0d58878d0989c9c0e383ce9067920c959f2a5a0e3f19fbef022a23dc7811859ec9e9290c54577             4238 main/binary-amd64/Packages
+ 1b9eadac9bcdea95758075d5712e055072f6b0f732d848ed6285266e50349647d87f17c9d0ef87f439294a4f469cd4ac938c4dd0a2ef77f45dcb3f7c170660fe             1926 main/binary-amd64/Packages.gz
