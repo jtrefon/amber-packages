@@ -46,6 +46,30 @@ Description: benchmark and KPI harness for the amber agent
  The package ships the scenario corpus and the model profiles, which the harness
  resolves from the install prefix rather than the working directory.
 
+Package: amber-agent-bench
+Architecture: amd64
+Version: 0.8.5-1
+Priority: optional
+Section: devel
+Source: amber-agent
+Maintainer: Jacek Trefon <hello@trefon.com>
+Installed-Size: 2981
+Depends: amber-agent (= 0.8.5-1), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Filename: pool/main/a/amber-agent/amber-agent-bench_0.8.5-1_amd64.deb
+Size: 1043192
+MD5sum: 926631fdeef4b2b3cf99832cf9e6b6f8
+SHA1: b55b509dbb7cf843ba5cbe9a3492accee878ad2e
+SHA256: b0732b56b8b8d9c0246e83a6befaafed2260732239eb4085a9d2636464b58e11
+SHA512: 50a75860c52b1f58fd8c437cc6de3a44581a0165069fa2de91fe2405c3e9c33d124c6e8a84e10900ceb57aa132c26608344413c92c8c1c051bd14337aa60e567
+Homepage: https://github.com/jtrefon/amber
+Description: benchmark and KPI harness for the amber agent
+ amber-bench runs scenario suites against the harness and scores the result.
+ Hermetic runs use a deterministic fake model, so they are safe in CI; live runs
+ target any OpenAI-compatible endpoint.
+ .
+ The package ships the scenario corpus and the model profiles, which the harness
+ resolves from the install prefix rather than the working directory.
+
 Package: amber-agent-dev
 Architecture: amd64
 Version: 0.8.2-1
@@ -83,6 +107,28 @@ MD5sum: f9093162811b066cf2e3f97e01a340af
 SHA1: fd9bbcc63f97e4045ec6fe0874a05444b960001d
 SHA256: 1786a69ff36ad5d9433cd4663b89e52a5a73eb2e53f253cad4d0c3049a02497d
 SHA512: 2d455eaa77e7fa3e78e9dd8ecfcd428b6776714981d10db9a6b1ee515a72649b09d6099ba429e179978c744ae5ba9b5723109e70d6894ebd749f515931098c88
+Homepage: https://github.com/jtrefon/amber
+Description: development files for the amber agent harness
+ Headers, static libraries and the pkg-config file needed to build a tool, a
+ plugin or an embedding application against the amber core.
+ .
+ Build with: pkg-config --cflags --libs amber-agent
+
+Package: amber-agent-dev
+Architecture: amd64
+Version: 0.8.5-1
+Priority: optional
+Section: libdevel
+Source: amber-agent
+Maintainer: Jacek Trefon <hello@trefon.com>
+Installed-Size: 27283
+Depends: amber-agent (= 0.8.5-1)
+Filename: pool/main/a/amber-agent/amber-agent-dev_0.8.5-1_amd64.deb
+Size: 3002454
+MD5sum: c84291c30971824678129c7de391c940
+SHA1: 5fe2aedf6ce0a69add545d0092cf90ff462a7d2a
+SHA256: 742d237e31c5fa48a4e4b62e9bd0ce4414b3c1cca6cea2f36336948f9d216b0a
+SHA512: 9db20fe20fa634ad950983bd4ac9198967d2d5a99870a3170510bb561d330c9db57170f33a73a935a290908d81b45006641ebf336a79ced3d15f7c0d72410482
 Homepage: https://github.com/jtrefon/amber
 Description: development files for the amber agent harness
  Headers, static libraries and the pkg-config file needed to build a tool, a
@@ -136,6 +182,29 @@ Description: signed package repository configuration for amber-agent
  Installing this package and running "apt-get update" is equivalent to what the
  published install script does, without fetching a script first.
 
+Package: amber-agent-release
+Architecture: all
+Version: 0.8.5-1
+Priority: optional
+Section: admin
+Source: amber-agent
+Maintainer: Jacek Trefon <hello@trefon.com>
+Installed-Size: 22
+Filename: pool/main/a/amber-agent/amber-agent-release_0.8.5-1_all.deb
+Size: 4190
+MD5sum: 237b145df72707857917072b63ec724f
+SHA1: d1c9e502623471e7e7fcf98321b3d66beca2b0d8
+SHA256: e2948ac0c459479d71379d786cd084c8c9310715a14aaa176514704a2403c495
+SHA512: c2a11cf3b7f13c670c620965e4a0efd10ad9fc5d0b14958082347e703f38f83cb48f1d93fdd157d5f2ee6072bdca177bf5f2cc7d6e492607613515a8b7188ffa
+Homepage: https://github.com/jtrefon/amber
+Description: signed package repository configuration for amber-agent
+ Installs the archive signing key at
+ /usr/share/keyrings/amber-agent-archive-keyring.gpg and the deb822 source
+ definition with a Signed-By that points at it.
+ .
+ Installing this package and running "apt-get update" is equivalent to what the
+ published install script does, without fetching a script first.
+
 Package: amber-agent
 Architecture: amd64
 Version: 0.8.2-1
@@ -177,6 +246,31 @@ MD5sum: e1b9f383adae3f4c0e69872b243f9fc1
 SHA1: 16e2ecbd94bcd449a0d33cc3795ccf81cf36ddcb
 SHA256: e45773d218af9bb9565c39cd625f957575d80cf7a5197e93b43a490f74b98728
 SHA512: 4b5d426a7fc601008097a67f9f9a3310794806bcba4039ffea77bd74dfa9b75f6c02253a77601cc270eb03a565e62acc3d8c86c4dd5a28bf1024ec7855468697
+Homepage: https://github.com/jtrefon/amber
+Description: AI agent harness with a terminal interface and a headless CLI
+ amber runs an agent loop against any OpenAI-compatible endpoint: the model
+ reads and writes files, searches the project and runs approval-gated commands
+ while the session, context and tool output are rendered in place.
+ .
+ This package carries the runtime: the full-screen client (amber), the headless
+ client (amber-cli), the bundled plugins and the data tree they read at startup.
+
+Package: amber-agent
+Architecture: amd64
+Version: 0.8.5-1
+Priority: optional
+Section: utils
+Maintainer: Jacek Trefon <hello@trefon.com>
+Installed-Size: 7313
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libncursesw6 (>= 6), libstdc++6 (>= 13.1), libtinfo6 (>= 6)
+Conflicts: amber (>= 0.1.0)
+Replaces: amber (>= 0.1.0)
+Filename: pool/main/a/amber-agent/amber-agent_0.8.5-1_amd64.deb
+Size: 2237910
+MD5sum: a848029b890a76f0a0b6869ea3be3d67
+SHA1: 31f641cc2dc7a4fcf98e210bc48b4748b93479d5
+SHA256: 68b22414234b960287ddb9c24812423a9f13ae2463906df0e9c110f76db9593d
+SHA512: b73f590890415841e92b7984c56576c0a6fde803d1c1dd44edb351f41dde4737c0190074685bfe9f7222e2eddf90b200c2dffc6501ff49806eb5b6f8cfd1a5d6
 Homepage: https://github.com/jtrefon/amber
 Description: AI agent harness with a terminal interface and a headless CLI
  amber runs an agent loop against any OpenAI-compatible endpoint: the model
