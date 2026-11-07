@@ -4,36 +4,36 @@ Hash: SHA512
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Tue, 03 Nov 2026 12:45:45 +0000
+Date: Sat, 07 Nov 2026 12:35:44 +0000
 Description: amber-agent package repository
 Label: amber-agent
 Origin: amber
 Suite: stable
 MD5Sum:
- 1456ff1925a816d1695005ce077b75af            12714 main/binary-amd64/Packages
- 13c874ded93a7e7b1d5e28fc38d62496             3498 main/binary-amd64/Packages.gz
+ 80ee48f22003ecc90937d7d97b32a3cf            12714 main/binary-amd64/Packages
+ 13789d6b6aacd4d9a5af4c96e1c97c24             3507 main/binary-amd64/Packages.gz
 SHA1:
- 6b36f3e6846848ce480481f261870a977050be25            12714 main/binary-amd64/Packages
- 7486a1bd058f5f8d3f28c18d2792038e63023518             3498 main/binary-amd64/Packages.gz
+ 665364470004dfecbf7c3d3c51c801dbccb8553e            12714 main/binary-amd64/Packages
+ d437913c76b8b6b0092c03072a9c4e92f4d48735             3507 main/binary-amd64/Packages.gz
 SHA256:
- 2945177a41099f47c1ecca1e96b7d69fdacb275cfd18dd583d408b9ec39d612d            12714 main/binary-amd64/Packages
- 0dc2608c31b2b5526434008f78f6b61301ac406e7bafaa14cca32da66497c220             3498 main/binary-amd64/Packages.gz
+ ec94acf190b431f537b39c5a40d0404d66aed8518a1b0f12c1947f172d754538            12714 main/binary-amd64/Packages
+ 0c77070e544defe3a17c5f8573afa1744037137c1ab4ff9784b8efcb2ded6a15             3507 main/binary-amd64/Packages.gz
 SHA512:
- 9064bb01db25cb71ce98cd783711c90f9ba7ebf18680c6a879519556d5d42a63acd91f83c22d7e9be8a6f83423f56a01d1def7431cf973a34bba0ed76f6955c9            12714 main/binary-amd64/Packages
- 295a39a04c237519da5aa21772848cc3adfbc1670b6f6f91bdd95271235f6c482fb7a35ea56f812fa04d65ce1b46c0abed091f5f907e50b2664494ddb85655f7             3498 main/binary-amd64/Packages.gz
+ 34f48f973e7c2a2d10e7adcaae3148c22da721dc3c1820e1a86b1bdd90c0a556ef67487f0d71674a37f99b54980ddc346150bf3647085762c3964948fc1251ec            12714 main/binary-amd64/Packages
+ 9d3274a089dd675dbafa9fab2b244f742530047a9ffb55293500490cdb10fed3f18d877452330263000b8ef229cfcd0c5d6f7c5efc175fdf39c63e2e3ee206be             3507 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEw3OnwvS7MKvrGzXaqvzq5sKeDRsFAmrp13kACgkQqvzq5sKe
-DRtuBA//X7CNW3Iich76nH0RTJ2+8wynpbNvvBxLgtryDLd2ZBFQAuKzC1BTNSxf
-itc8lS30BGlG3FwCppx8SKDafD85HLWALlL2LgvyohyTIs6lYGiKaF98alOoEREI
-Y/ZQ6ISRzFv638Dbs8bsEKjzi0d501GvBOHTSZ/K8yu1UHcnrwXWD+k6ZBO2L0sx
-8aG7DnkCpXdqJ3DZIHkDS3jvEny2L7iQleZ9k4kQeP4wbwVjEbGdOO9IrWwq25nT
-0jSsNlksr/L4QY9JG/trrDHoyKu9moO88oB50+ziIRa7Gkd41qx/0MsWnI+ADMFC
-eMdMaR/REXXud6wVegZAkH6CoI6jGfN0YbmVKaKtSyHcj5LVCfB7CV1vwPvdE43V
-gn2oVDxSTq4RG2bk3zELVS/Xw1w713JBGTWr0Lh+2rROLixE9oD5l/QWC3yKu2Kr
-C00c0RpU1UNVgMavQnbZ6ESMMh3mYFCWAJNjaqDi7VvhgL7V/7jjCRJpZ/qMT8Y8
-TmqXphrpPKtwwB7i9LMbPr6LS5PkTJ7+34Ju1cKTSmebQZ3d4RRJKJSu7AK4GD0H
-Gc8uHWwQwvsmfYsdVnHI+ZOK/QYlBeYC0gIFEzQ7YADroyDYy/p/VFVTdvOvmUiP
-pi1VJT9nPFR9kCuJTpf8o3cnb+hIgy/tHZI7kLzdUTW8bDoV0iE=
-=YlhQ
+iQIzBAEBCgAdFiEEw3OnwvS7MKvrGzXaqvzq5sKeDRsFAmrvGyAACgkQqvzq5sKe
+DRuH8xAAhw8taaqZP/XjtTo65h65WweYor2RRcpUmEE6LOQWYl+aXdkjhorV2P5b
+dhtCcBrmefezjMIBB8R3iCvD1tijUwCkQyDyEJrob587dydsMh4fv6yQKQRIHSfB
+sjjoy30q1YDolS5vJUlAA3ERSlWFFXw1WknfhHQAcxGG2hOEICaW3zgxQ51ZHJIb
+5PFg9KYkm8kRmyE1aaOcfJxqoKt1ozDqQsOjF6FeBk9/k0Z3rCmnsYA7wKSm74k/
+LWeoj4XRl2h9RDCcSbHywmEMyZF2O3hJmYqIom8E6a6Jk9QVPeXhSyDzfyA9rTbx
+FN44SO7pvw+JSvMzR+ph0BjcXKq8NGWrIpq3qcb07DyWInloQEHEEWfgyhcTk2zN
+/I4z+AtTW7qVXsMyVxG4S5BJyKRjwWRNEHr48wlCQKdu3yXb+41UObkv2OlG3Xd7
+ncRw8noz6He8YGfqm+eFBPCAjWxMk5tpUVS+RreqWGnosEGAZSYttWBFu8PwxIMi
+XXVnX+/YzASyk7bw22kfy0gppls2KDWSXBxrOGKzYTCzryLSsHbzP3CEv5yz1WtY
+vo/tWGpoChlZopAGG/rG8KrLPNeYSKmVhIVfSCoUmAaZ5zHFrPerk2XA/tvJ2YFQ
+zjVpKWOeUi54pe/Se6XuNO+LBUQy3i9mOcuAuTUeWwa3oXZpM0Q=
+=xtwU
 -----END PGP SIGNATURE-----
