@@ -1,20 +1,20 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Sat, 07 Nov 2026 12:35:44 +0000
+Date: Mon, 09 Nov 2026 15:43:16 +0000
 Description: amber-agent package repository
 Label: amber-agent
 Origin: amber
 Suite: stable
 MD5Sum:
- 80ee48f22003ecc90937d7d97b32a3cf            12714 main/binary-amd64/Packages
- 13789d6b6aacd4d9a5af4c96e1c97c24             3507 main/binary-amd64/Packages.gz
+ 9104d7b046d1fb8a014e7f8a09977779            12714 main/binary-amd64/Packages
+ ac96271613d2e6191093cff09423ef99             3519 main/binary-amd64/Packages.gz
 SHA1:
- 665364470004dfecbf7c3d3c51c801dbccb8553e            12714 main/binary-amd64/Packages
- d437913c76b8b6b0092c03072a9c4e92f4d48735             3507 main/binary-amd64/Packages.gz
+ 6ebfe56211718708cb63699014fb64422529cbf6            12714 main/binary-amd64/Packages
+ 03da7bb772dea0387fb966942510321c6998ebf7             3519 main/binary-amd64/Packages.gz
 SHA256:
- ec94acf190b431f537b39c5a40d0404d66aed8518a1b0f12c1947f172d754538            12714 main/binary-amd64/Packages
- 0c77070e544defe3a17c5f8573afa1744037137c1ab4ff9784b8efcb2ded6a15             3507 main/binary-amd64/Packages.gz
+ cc16c7fc7cc881d489068e3949018a067ad18d4b95f2bc0a942004e71d71df1a            12714 main/binary-amd64/Packages
+ e45f5d80e59655d4c91ff0eb462c3fbc983434beb83144259211732be5519dd8             3519 main/binary-amd64/Packages.gz
 SHA512:
- 34f48f973e7c2a2d10e7adcaae3148c22da721dc3c1820e1a86b1bdd90c0a556ef67487f0d71674a37f99b54980ddc346150bf3647085762c3964948fc1251ec            12714 main/binary-amd64/Packages
- 9d3274a089dd675dbafa9fab2b244f742530047a9ffb55293500490cdb10fed3f18d877452330263000b8ef229cfcd0c5d6f7c5efc175fdf39c63e2e3ee206be             3507 main/binary-amd64/Packages.gz
+ 78a29047e5139bbb9c72688d26d4a52db5466711f70b2f626c73754740fc3435c85fc06007a315189bbae950e73c5a1e23ca02b5cebd07d6df7d2f5dd2e7970d            12714 main/binary-amd64/Packages
+ a581330ea2ad9bcc16ab3b34e5d5d5627308ab6de02616030c7a07b4422efec27140d1d7db9549360892e5f2687b31320adf0edb80fa51a6fe957d6db060127d             3519 main/binary-amd64/Packages.gz
